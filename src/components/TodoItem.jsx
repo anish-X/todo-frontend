@@ -13,7 +13,7 @@ function TodoItem({ todo, onDelete, onToggle }) {
         className="delete-button"
         aria-label="Delete todo"
       >
-        Deletee
+        Deleteeegit
       </button>
     </li>
   );
