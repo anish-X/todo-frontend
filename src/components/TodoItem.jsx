@@ -1,6 +1,6 @@
 function TodoItem({ todo, onDelete, onToggle }) {
   return (
-    <li className={`todo-item ${todo.completed ? 'completed' : ''}`}>
+    <li className={`todo-item ${todo.completed ? "completed" : ""}`}>
       <input
         type="checkbox"
         checked={todo.completed}
@@ -13,10 +13,10 @@ function TodoItem({ todo, onDelete, onToggle }) {
         className="delete-button"
         aria-label="Delete todo"
       >
-        Delete
+        Deletee
       </button>
     </li>
-  )
+  );
 }
 
-export default TodoItem
+export default TodoItem;
