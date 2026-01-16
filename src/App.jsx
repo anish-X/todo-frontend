@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <h1>Todo dfsdfssdfsdfdsp</h1>
+        <h1>Todo dfsdfssdfsdfdp</h1>
         <TodoForm onAdd={addTodo} />
         <TodoList todos={todos} onDelete={deleteTodo} onToggle={toggleTodo} />
       </div>
