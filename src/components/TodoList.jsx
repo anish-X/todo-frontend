@@ -2,7 +2,7 @@ import TodoItem from "./TodoItem";
 
 function TodoList({ todos, onDelete, onToggle }) {
   if (todos.length === 0) {
-    return <p className="empty-message">No todos yet. Add one above!!</p>;
+    return <p className="empty-message">No todos yet. Add one above!</p>;
   }
 
   return (
